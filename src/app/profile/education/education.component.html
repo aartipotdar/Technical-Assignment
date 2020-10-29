@@ -1,0 +1,33 @@
+<div class="title"> 
+<i class="fa fa-graduation-cap">  EDUCATION</i>
+</div>
+
+<div class="head">
+  <header>Hi, Robert <i class="fa fa-fw fa-angle-down" style="color: cornflowerblue"></i>
+    <i class="fa fa-fw fa-bell" style="color: cornflowerblue"></i></header> 
+  </div>
+  
+<div class="container">
+    <table class="table table-striped">
+      <thead>
+          <tr>
+            <th>DEGREE</th>
+            <th>SPECIALIZATION TYPE</th>
+            <th>NAME OF SCHOOL/UNIVERSITY</th>
+            <th>YEAR OF PASSING</th>
+            <th>PERCENTAGE</th>
+            <th>FULL/PART TIME</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let degree of educational">
+          <td>{{ degree.degree }}</td>
+          <td>{{ degree.specialization }}</td>
+          <td>{{ degree.school }}</td>
+          <td>{{ degree.year }}</td>
+          <td>{{ degree.percentage }}</td>
+          <td>{{ degree.fulltime }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

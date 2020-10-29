@@ -1,0 +1,19 @@
+.title {
+    color: cornflowerblue;
+    font-size: 18px;
+    float: left;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+.table {
+    margin-left: 40px;
+    color: gray;
+    font-size: 14px;
+}
+
+.head {
+  text-align: right;
+  color: black;
+}
